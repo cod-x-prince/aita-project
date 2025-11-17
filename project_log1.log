@@ -1,0 +1,190 @@
+C:\Users\ssang\miniconda3\envs\aita_env\Lib\site-packages\pandas_ta\__init__.py:7: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+  from pkg_resources import get_distribution, DistributionNotFound
+2025-09-19 22:14:37,585 - INFO - Loaded 101310 rows of historical data.
+C:\AITA-Project\strategy_logic.py:7: UserWarning: Converting to PeriodArray/Index representation will drop timezone information.
+  df.ta.vwap(append=True)
+2025-09-19 22:14:48,845 - INFO - Finished run for Period=10, Factor=1.2. P&L: Rs.-50,299.45
+C:\AITA-Project\strategy_logic.py:7: UserWarning: Converting to PeriodArray/Index representation will drop timezone information.
+  df.ta.vwap(append=True)
+2025-09-19 22:14:59,972 - INFO - Finished run for Period=10, Factor=1.5. P&L: Rs.-39,635.75
+C:\AITA-Project\strategy_logic.py:7: UserWarning: Converting to PeriodArray/Index representation will drop timezone information.
+  df.ta.vwap(append=True)
+2025-09-19 22:15:11,039 - INFO - Finished run for Period=10, Factor=2.0. P&L: Rs.-18,047.61
+C:\AITA-Project\strategy_logic.py:7: UserWarning: Converting to PeriodArray/Index representation will drop timezone information.
+  df.ta.vwap(append=True)
+2025-09-19 22:15:22,042 - INFO - Finished run for Period=10, Factor=2.5. P&L: Rs.-13,653.92
+C:\AITA-Project\strategy_logic.py:7: UserWarning: Converting to PeriodArray/Index representation will drop timezone information.
+  df.ta.vwap(append=True)
+2025-09-19 22:15:39,622 - INFO - Finished run for Period=20, Factor=1.2. P&L: Rs.-47,442.11
+C:\AITA-Project\strategy_logic.py:7: UserWarning: Converting to PeriodArray/Index representation will drop timezone information.
+  df.ta.vwap(append=True)
+2025-09-19 22:15:53,124 - INFO - Finished run for Period=20, Factor=1.5. P&L: Rs.-36,252.44
+C:\AITA-Project\strategy_logic.py:7: UserWarning: Converting to PeriodArray/Index representation will drop timezone information.
+  df.ta.vwap(append=True)
+2025-09-19 22:16:03,676 - INFO - Finished run for Period=20, Factor=2.0. P&L: Rs.-16,870.28
+C:\AITA-Project\strategy_logic.py:7: UserWarning: Converting to PeriodArray/Index representation will drop timezone information.
+  df.ta.vwap(append=True)
+2025-09-19 22:16:14,880 - INFO - Finished run for Period=20, Factor=2.5. P&L: Rs.-5,071.18
+C:\AITA-Project\strategy_logic.py:7: UserWarning: Converting to PeriodArray/Index representation will drop timezone information.
+  df.ta.vwap(append=True)
+2025-09-19 22:16:26,020 - INFO - Finished run for Period=30, Factor=1.2. P&L: Rs.-47,750.12
+C:\AITA-Project\strategy_logic.py:7: UserWarning: Converting to PeriodArray/Index representation will drop timezone information.
+  df.ta.vwap(append=True)
+2025-09-19 22:16:35,596 - INFO - Finished run for Period=30, Factor=1.5. P&L: Rs.-26,419.40
+C:\AITA-Project\strategy_logic.py:7: UserWarning: Converting to PeriodArray/Index representation will drop timezone information.
+  df.ta.vwap(append=True)
+2025-09-19 22:16:45,342 - INFO - Finished run for Period=30, Factor=2.0. P&L: Rs.-19,175.29
+C:\AITA-Project\strategy_logic.py:7: UserWarning: Converting to PeriodArray/Index representation will drop timezone information.
+  df.ta.vwap(append=True)
+2025-09-19 22:16:54,917 - INFO - Finished run for Period=30, Factor=2.5. P&L: Rs.-11,873.15
+C:\AITA-Project\strategy_logic.py:7: UserWarning: Converting to PeriodArray/Index representation will drop timezone information.
+  df.ta.vwap(append=True)
+2025-09-19 22:17:04,546 - INFO - Finished run for Period=40, Factor=1.2. P&L: Rs.-48,760.36
+C:\AITA-Project\strategy_logic.py:7: UserWarning: Converting to PeriodArray/Index representation will drop timezone information.
+  df.ta.vwap(append=True)
+2025-09-19 22:17:14,160 - INFO - Finished run for Period=40, Factor=1.5. P&L: Rs.-36,883.27
+C:\AITA-Project\strategy_logic.py:7: UserWarning: Converting to PeriodArray/Index representation will drop timezone information.
+  df.ta.vwap(append=True)
+2025-09-19 22:17:23,822 - INFO - Finished run for Period=40, Factor=2.0. P&L: Rs.-27,168.80
+C:\AITA-Project\strategy_logic.py:7: UserWarning: Converting to PeriodArray/Index representation will drop timezone information.
+  df.ta.vwap(append=True)
+2025-09-19 22:17:33,546 - INFO - Finished run for Period=40, Factor=2.5. P&L: Rs.-9,810.16
+2025-09-19 22:17:33,546 - INFO - 
+--- OPTIMIZATION COMPLETE ---
+Top 5 Performing Parameter Sets:
+    period  factor   ending_cash           pnl
+7       20     2.5  94928.816188  -5071.183812
+15      40     2.5  90189.838417  -9810.161583
+11      30     2.5  88126.848027 -11873.151973
+3       10     2.5  86346.083840 -13653.916160
+6       20     2.0  83129.723791 -16870.276209
+C:\Users\ssang\miniconda3\envs\aita_env\Lib\site-packages\pandas_ta\__init__.py:7: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+  from pkg_resources import get_distribution, DistributionNotFound
+Traceback (most recent call last):
+  File "C:\AITA-Project\phase3_optimizer.py", line 5, in <module>
+    from strategy_logic import run_vwap_crossover_strategy, calculate_performance # <- Import from our new file
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ImportError: cannot import name 'calculate_performance' from 'strategy_logic' (C:\AITA-Project\strategy_logic.py)
+C:\Users\ssang\miniconda3\envs\aita_env\Lib\site-packages\pandas_ta\__init__.py:7: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+  from pkg_resources import get_distribution, DistributionNotFound
+2025-09-19 22:39:21,269 - INFO - Loaded 101310 rows of historical data.
+C:\AITA-Project\strategy_logic.py:8: UserWarning: Converting to PeriodArray/Index representation will drop timezone information.
+  df.ta.vwap(append=True)
+2025-09-19 22:39:32,446 - INFO - --- Backtest Finished ---
+2025-09-19 22:39:32,449 - INFO - 
+--- FINAL PERFORMANCE REPORT (with SL/TP) ---
+2025-09-19 22:39:32,449 - INFO - Starting Portfolio Value: Rs.100,000.00
+2025-09-19 22:39:32,449 - INFO - Ending Portfolio Value:   Rs.59,008.73
+2025-09-19 22:39:32,449 - INFO - Total Net Profit/Loss:    Rs.-34,621.27
+2025-09-19 22:39:32,449 - INFO - ------------------------------
+2025-09-19 22:39:32,449 - INFO - Total Trades Executed:    319
+2025-09-19 22:39:32,449 - INFO - Win Rate:                 21.00%
+2025-09-19 22:39:32,449 - INFO - Exit Reasons:
+exit_reason
+OPPOSITE_SIGNAL    304
+STOP_LOSS           12
+TAKE_PROFIT          2
+END_OF_DATA          1
+Name: count, dtype: int64
+2025-09-19 22:39:32,452 - INFO - --------------------------------
+
+C:\Users\ssang\miniconda3\envs\aita_env\Lib\site-packages\pandas_ta\__init__.py:7: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+  from pkg_resources import get_distribution, DistributionNotFound
+2025-09-19 22:51:57,142 - INFO - Loaded 101310 rows of historical data.
+C:\AITA-Project\strategy_logic.py:9: UserWarning: Converting to PeriodArray/Index representation will drop timezone information.
+  df.ta.vwap(append=True)
+2025-09-19 22:52:07,438 - INFO - 
+--- FINAL PERFORMANCE REPORT (V2: Trend Filter + SL/TP) ---
+2025-09-19 22:52:07,439 - INFO - Starting Portfolio Value: Rs.100,000.00
+2025-09-19 22:52:07,439 - INFO - Ending Portfolio Value:   Rs.78,604.77
+2025-09-19 22:52:07,439 - INFO - Total Net Profit/Loss:    Rs.-18,065.23
+2025-09-19 22:52:07,439 - INFO - ------------------------------
+2025-09-19 22:52:07,439 - INFO - Total Trades Executed:    167
+2025-09-19 22:52:07,439 - INFO - Win Rate:                 28.14%
+2025-09-19 22:52:07,439 - INFO - Exit Reasons:
+exit_reason
+OPPOSITE_SIGNAL    152
+STOP_LOSS           12
+TAKE_PROFIT          2
+END_OF_DATA          1
+Name: count, dtype: int64
+2025-09-19 22:52:07,440 - INFO - --------------------------------
+
+C:\Users\ssang\miniconda3\envs\aita_env\Lib\site-packages\pandas_ta\__init__.py:7: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+  from pkg_resources import get_distribution, DistributionNotFound
+2025-09-19 22:54:10,994 - INFO - Loaded 101310 rows of historical data.
+C:\AITA-Project\strategy_logic.py:9: UserWarning: Converting to PeriodArray/Index representation will drop timezone information.
+  df.ta.vwap(append=True)
+2025-09-19 22:54:21,872 - INFO - Finished run for TP=50, VP=20, VF=1.5. P&L: Rs.-21,395.23
+C:\AITA-Project\strategy_logic.py:9: UserWarning: Converting to PeriodArray/Index representation will drop timezone information.
+  df.ta.vwap(append=True)
+2025-09-19 22:54:32,042 - INFO - Finished run for TP=50, VP=20, VF=2.5. P&L: Rs.-16,387.99
+C:\AITA-Project\strategy_logic.py:9: UserWarning: Converting to PeriodArray/Index representation will drop timezone information.
+  df.ta.vwap(append=True)
+2025-09-19 22:54:41,956 - INFO - Finished run for TP=50, VP=40, VF=1.5. P&L: Rs.-18,573.64
+C:\AITA-Project\strategy_logic.py:9: UserWarning: Converting to PeriodArray/Index representation will drop timezone information.
+  df.ta.vwap(append=True)
+2025-09-19 22:54:52,178 - INFO - Finished run for TP=50, VP=40, VF=2.5. P&L: Rs.-11,211.37
+C:\AITA-Project\strategy_logic.py:9: UserWarning: Converting to PeriodArray/Index representation will drop timezone information.
+  df.ta.vwap(append=True)
+2025-09-19 22:55:02,354 - INFO - Finished run for TP=100, VP=20, VF=1.5. P&L: Rs.-22,012.88
+C:\AITA-Project\strategy_logic.py:9: UserWarning: Converting to PeriodArray/Index representation will drop timezone information.
+  df.ta.vwap(append=True)
+2025-09-19 22:55:12,485 - INFO - Finished run for TP=100, VP=20, VF=2.5. P&L: Rs.-13,067.45
+C:\AITA-Project\strategy_logic.py:9: UserWarning: Converting to PeriodArray/Index representation will drop timezone information.
+  df.ta.vwap(append=True)
+2025-09-19 22:55:22,617 - INFO - Finished run for TP=100, VP=40, VF=1.5. P&L: Rs.-22,184.40
+C:\AITA-Project\strategy_logic.py:9: UserWarning: Converting to PeriodArray/Index representation will drop timezone information.
+  df.ta.vwap(append=True)
+2025-09-19 22:55:32,769 - INFO - Finished run for TP=100, VP=40, VF=2.5. P&L: Rs.-11,504.75
+2025-09-19 22:55:32,769 - INFO - 
+--- V2 OPTIMIZATION COMPLETE ---
+Top Performing Parameter Sets for Agent V2.0:
+   trend_period  vol_period  vol_factor           pnl   win_rate  num_trades
+3            50          40         2.5 -11211.366732  36.956522          92
+7           100          40         2.5 -11504.752551  39.024390          82
+5           100          20         2.5 -13067.449684  38.823529          85
+1            50          20         2.5 -16387.991986  35.632184          87
+2            50          40         1.5 -18573.636359  26.162791         172
+0            50          20         1.5 -21395.229598  28.143713         167
+4           100          20         1.5 -22012.884081  27.891156         147
+6           100          40         1.5 -22184.404857  28.025478         157
+C:\Users\ssang\miniconda3\envs\aita_env\Lib\site-packages\pandas_ta\__init__.py:7: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+  from pkg_resources import get_distribution, DistributionNotFound
+2025-09-20 15:57:28,500 - INFO - Loaded 101310 rows of historical data.
+2025-09-20 15:57:36,284 - INFO - --- Backtest Finished for Bollinger Bands Strategy ---
+2025-09-20 15:57:36,287 - INFO - 
+--- FINAL PERFORMANCE REPORT (V3: Bollinger Bands + SL/TP) ---
+2025-09-20 15:57:36,287 - INFO - Starting Portfolio Value: Rs.100,000.00
+2025-09-20 15:57:36,287 - INFO - Ending Portfolio Value:   Rs.18,508.68
+2025-09-20 15:57:36,288 - INFO - Total Net Profit/Loss:    Rs.-59,371.32
+2025-09-20 15:57:36,288 - INFO - ------------------------------
+2025-09-20 15:57:36,288 - INFO - Total Trades Executed:    1106
+2025-09-20 15:57:36,288 - INFO - Win Rate:                 46.29%
+2025-09-20 15:57:36,288 - INFO - Exit Reasons:
+exit_reason
+OPPOSITE_SIGNAL    1092
+STOP_LOSS            14
+Name: count, dtype: int64
+2025-09-20 15:57:36,292 - INFO - --------------------------------
+
+C:\Users\ssang\miniconda3\envs\aita_env\Lib\site-packages\pandas_ta\__init__.py:7: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+  from pkg_resources import get_distribution, DistributionNotFound
+2025-09-20 16:00:11,622 - INFO - Loaded 101310 rows of historical data.
+2025-09-20 16:00:18,580 - INFO - --- Backtest Finished for ORB Strategy ---
+2025-09-20 16:00:18,580 - INFO - 
+--- FINAL PERFORMANCE REPORT (V3: ORB + SL/TP) ---
+2025-09-20 16:00:18,580 - INFO - Starting Portfolio Value: Rs.100,000.00
+2025-09-20 16:00:18,580 - INFO - Ending Portfolio Value:   Rs.105,063.55
+2025-09-20 16:00:18,580 - INFO - Total Net Profit/Loss:    Rs.6,523.55
+2025-09-20 16:00:18,580 - INFO - ------------------------------
+2025-09-20 16:00:18,580 - INFO - Total Trades Executed:    73
+2025-09-20 16:00:18,580 - INFO - Win Rate:                 46.58%
+2025-09-20 16:00:18,580 - INFO - Exit Reasons:
+exit_reason
+OPPOSITE_SIGNAL    56
+STOP_LOSS           9
+TAKE_PROFIT         8
+Name: count, dtype: int64
+2025-09-20 16:00:18,581 - INFO - --------------------------------
+

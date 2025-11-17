@@ -1,0 +1,68 @@
+2025-09-20 18:07:11,505 - INFO - ============================================================
+2025-09-20 18:07:11,505 - INFO - --- Starting Backtest for RELIANCE_2YR_1M_DATA.CSV ---
+2025-09-20 18:07:11,505 - INFO - ============================================================
+C:\Users\ssang\miniconda3\envs\aita_env\Lib\site-packages\pandas_ta\__init__.py:7: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+  from pkg_resources import get_distribution, DistributionNotFound
+2025-09-20 18:07:24,399 - INFO - ============================================================
+2025-09-20 18:07:24,400 - INFO - --- Starting Backtest for RELIANCE_2YR_1M_DATA.CSV ---
+2025-09-20 18:07:24,400 - INFO - ============================================================
+2025-09-20 18:07:38,060 - INFO - 
+--- PERFORMANCE REPORT FOR RELIANCE_2YR_1M_DATA.CSV ---
+2025-09-20 18:07:38,060 - INFO - Starting Portfolio Value: Rs.100,000.00
+2025-09-20 18:07:38,060 - INFO - Ending Portfolio Value:   Rs.102,639.75
+2025-09-20 18:07:38,060 - INFO - Total Net Profit/Loss:    Rs.5,519.75
+2025-09-20 18:07:38,060 - INFO - Return Over Period:       5.52%
+2025-09-20 18:07:38,060 - INFO - ------------------------------
+2025-09-20 18:07:38,060 - INFO - Total Trades Executed:    144
+2025-09-20 18:07:38,061 - INFO - Win Rate:                 43.75%
+2025-09-20 18:07:38,061 - INFO - Exit Reasons:
+exit_reason
+OPPOSITE_SIGNAL    117
+STOP_LOSS           15
+TAKE_PROFIT         12
+Name: count, dtype: int64
+2025-09-20 18:07:38,064 - INFO - --------------------------------
+
+
+2025-09-20 18:07:38,064 - INFO - ============================================================
+2025-09-20 18:07:38,065 - INFO - --- Starting Backtest for INFY_2YR_1M_DATA.CSV ---
+2025-09-20 18:07:38,065 - INFO - ============================================================
+2025-09-20 18:07:51,394 - INFO - 
+--- PERFORMANCE REPORT FOR INFY_2YR_1M_DATA.CSV ---
+2025-09-20 18:07:51,394 - INFO - Starting Portfolio Value: Rs.100,000.00
+2025-09-20 18:07:51,394 - INFO - Ending Portfolio Value:   Rs.95,369.01
+2025-09-20 18:07:51,394 - INFO - Total Net Profit/Loss:    Rs.-2,130.99
+2025-09-20 18:07:51,394 - INFO - Return Over Period:       -2.13%
+2025-09-20 18:07:51,394 - INFO - ------------------------------
+2025-09-20 18:07:51,394 - INFO - Total Trades Executed:    125
+2025-09-20 18:07:51,394 - INFO - Win Rate:                 39.20%
+2025-09-20 18:07:51,394 - INFO - Exit Reasons:
+exit_reason
+OPPOSITE_SIGNAL    91
+STOP_LOSS          23
+TAKE_PROFIT        11
+Name: count, dtype: int64
+2025-09-20 18:07:51,394 - INFO - --------------------------------
+
+
+2025-09-20 18:07:51,394 - INFO - ============================================================
+2025-09-20 18:07:51,394 - INFO - --- Starting Backtest for HDFCBANK_2YR_1M_DATA.CSV ---
+2025-09-20 18:07:51,394 - INFO - ============================================================
+2025-09-20 18:08:03,938 - INFO - 
+--- PERFORMANCE REPORT FOR HDFCBANK_2YR_1M_DATA.CSV ---
+2025-09-20 18:08:03,938 - INFO - Starting Portfolio Value: Rs.100,000.00
+2025-09-20 18:08:03,938 - INFO - Ending Portfolio Value:   Rs.128,713.66
+2025-09-20 18:08:03,938 - INFO - Total Net Profit/Loss:    Rs.31,213.66
+2025-09-20 18:08:03,938 - INFO - Return Over Period:       31.21%
+2025-09-20 18:08:03,938 - INFO - ------------------------------
+2025-09-20 18:08:03,938 - INFO - Total Trades Executed:    125
+2025-09-20 18:08:03,938 - INFO - Win Rate:                 49.60%
+2025-09-20 18:08:03,938 - INFO - Exit Reasons:
+exit_reason
+OPPOSITE_SIGNAL    101
+TAKE_PROFIT         13
+STOP_LOSS           11
+Name: count, dtype: int64
+2025-09-20 18:08:03,939 - INFO - --------------------------------
+
+

@@ -1,0 +1,17 @@
+C:\Users\ssang\miniconda3\envs\aita_env\Lib\site-packages\pandas_ta\__init__.py:7: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+  from pkg_resources import get_distribution, DistributionNotFound
+Traceback (most recent call last):
+  File "C:\AITA-Project\research_portfolio_backtest.py", line 34, in <module>
+    signals = run_orb_strategy(df_history, range_minutes=30)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\AITA-Project\strategy_logic.py", line 95, in run_orb_strategy
+    current_bar = daily_data.iloc[i]
+                  ~~~~~~~~~~~~~~~^^^
+  File "C:\Users\ssang\miniconda3\envs\aita_env\Lib\site-packages\pandas\core\indexing.py", line 1189, in __getitem__
+    maybe_callable = com.apply_if_callable(key, self.obj)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ssang\miniconda3\envs\aita_env\Lib\site-packages\pandas\core\common.py", line 372, in apply_if_callable
+    def apply_if_callable(maybe_callable, obj, **kwargs):
+    
+KeyboardInterrupt
+^C
