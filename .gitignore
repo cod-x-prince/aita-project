@@ -1,1 +1,6 @@
 .env
+.hdfcbank_2yr_1m_data.csv
+.infy_2yr_1m_data.csv
+.reliance_1m_data.csv
+.reliance_2yr_1m_data.csv
+.upstox_complete_data.csv
